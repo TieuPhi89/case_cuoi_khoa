@@ -1,0 +1,118 @@
+.z {
+    font-size: 2em;
+    font-style: italic;
+    color: lightskyblue;
+}
+
+.i {
+    font-size: 1.5em;
+    font-style: inherit;
+    color: green;
+}
+
+.n {
+    font-size: 1.5em;
+    font-style: inherit;
+    color: orange;
+}
+
+.g {
+    font-size: 1.5em;
+    font-style: inherit;
+    color: purple;
+}
+
+.menu-color {
+
+    font-size: 1.15em;
+    /* color: #0d47a1; */
+}
+
+strong:hover {
+    color: #42a5f5;
+}
+
+.a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    color: purple;
+    margin: 5px;
+
+}
+
+.box-item {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    margin: 2px;
+}
+
+.text-content {
+    font-size: 0.85em;
+
+}
+
+.text-content-center {
+    font-size: 0.85em;
+    margin-top: -10px;
+
+}
+
+.text-content-right {
+    padding-top: 2px;
+    font-size: 0.85em;
+
+}
+
+.con-center {
+    /* background: url(img/bg-org.png); */
+    background-color: #ffbb33;
+    margin-top: 25px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+.con:hover {
+    color: #eceff1;
+}
+
+.text-til-bottom {
+    color: #00C851;
+    text-align: center;
+}
+
+.i {
+    width: 70%;
+    margin: auto;
+    animation: TieuPhi 3s;
+    /* animation-iteration-count: infinite; */
+
+
+}
+
+.i:hover {
+    /* width: 100%; */
+    
+    transform: rotate(3600deg);
+    transition: 1s;
+    /* border-radius: 25px; */
+    /* transition-timing-function: 1s; */
+
+    /* scale: 1.025; */
+    /* transform: rotate(180deg);
+    transition: 1s; */
+
+
+}
+
+@keyframes TieuPhi {
+
+    100% {
+        border-radius: 80%;
+
+    }
+}
